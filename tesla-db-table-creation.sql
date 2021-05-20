@@ -19,7 +19,7 @@
 CREATE TABLE "tesla_tweets" (
     "id" BIGINT   NOT NULL,
     "date" DATE   NOT NULL,
-    "tweet" VARCHAR(300)   NOT NULL,
+    "tweet" VARCHAR(1000)   NOT NULL,
     "username" VARCHAR(10)   NOT NULL,
     "nlikes" INT   NOT NULL,
     "nreplies" INT   NOT NULL,
